@@ -352,7 +352,7 @@ ol li::before {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.5rem;
 }
 
