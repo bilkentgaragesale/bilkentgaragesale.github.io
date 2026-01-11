@@ -7,16 +7,25 @@ body {
   line-height: 1.6;
 }
 header {
-  background-image: url("images/BGS_Banner_Small.jpg");
-  background-position: center;
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("images/BGS_Banner_Ideal.png");
+  background-position: 50% 50%;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 20vh;
-  position: relative;
+  background-color: #f9efe5;
+  background-size: min(100%, 1400px) auto;
+  /*aspect-ratio: 16 / 4;*/
+  /*height: clamp(160px, 20vw, 260px);*/
+  width: 100%;
+  min-height: 160px;
+  height: 20vw;
+  max-height: 260px;
+  overflow: hidden;
+  /*height: 20vh;*/
+  /*position: relative;*/
   /*background-color: #2e3a59;*/
-  color: white;
-  padding: 1.5rem;
-  text-align: center;
+  /*color: white;*/
+  /*padding: 1.5rem;*/
+  /*text-align: center;*/
 }
 .container {
   max-width: 1000px;
